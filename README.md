@@ -4,11 +4,7 @@
 
 ### Functionalities
 
-- Search Users.
-- One - One Chat.
 - Group Chat.
-- Add Or Remove Users From Group.
-- JWT Authentication.
 
 ### Tech
 
@@ -33,8 +29,7 @@ $ npm install && cd client && npm install
 
 ```
 MONGO_URI=Your_MONGO_URL
-JWT_SECRET=YOUR_SECRET_KEY
-JWT_LIFETIME=TIME
+
 
 ```
 

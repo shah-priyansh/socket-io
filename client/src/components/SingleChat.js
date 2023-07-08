@@ -68,7 +68,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
 
   useEffect(() => {
     if (user) {
-      socket = io("http://localhost:5000");
+      socket = io("https://group-chat-laz6.onrender.com/");
       socket.emit("setup", user);
       socket.on("connected", () => setSocketConnected(true));
     }
