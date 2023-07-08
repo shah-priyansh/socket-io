@@ -49,7 +49,9 @@ const server = createServer(app);
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URI);
+    await connectDB(
+      "mongodb+srv://demouser:demo123@cluster0.zivy5.mongodb.net/chatApp"
+    );
     server.listen(port, () =>
       console.log(`Server Running on port : ${port}...`)
     );
